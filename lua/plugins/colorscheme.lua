@@ -1,12 +1,12 @@
 return {
   -- add gruvbox
-  { "lunacookies/vim-colors-xcode" },
+  { "lunacookies/vim-colors-xcode", "Mofiqul/dracula.nvim" },
 
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "xcodedarkhc",
+      colorscheme = "dracula-soft",
     },
   },
 }
